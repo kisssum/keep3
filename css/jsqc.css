@@ -40,9 +40,9 @@
 }
 
 #jsqc ul {
-    width: 510px;
+    width: 25%;
     position: absolute;
-    right: 25%;
+    right: 35%;
     bottom: 5%;
     list-style: none;
     display: flex;
