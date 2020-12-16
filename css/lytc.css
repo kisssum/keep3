@@ -1,0 +1,18 @@
+#lytc {
+    text-align: center;
+}
+
+#lytc #p1 {
+    padding-top: 1%;
+
+    font-size: 35px;
+    color: #444;
+}
+
+#lytc #p2 {
+    margin-bottom: 5%;
+    padding-top: 2%;
+
+    font-size: 25px;
+    color: #666;
+}

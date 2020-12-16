@@ -1,0 +1,36 @@
+#box {
+    margin: 0 auto;
+    width: 300px;
+    height: 800px;
+    border: 2px solid red;
+}
+
+ul {
+    list-style: none;
+}
+
+#one>li {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: orange;
+}
+
+#one>li>span {
+    font-size: 34px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.two {
+    height: 0;
+    background-color: orange;
+    overflow: hidden;
+    transition: .4s;
+}
+
+.two>li {
+    text-align: center;
+    background-color: orange;
+    font-size: 30px;
+    line-height: 50px;
+}
