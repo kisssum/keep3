@@ -1,8 +1,3 @@
-function clickAll() {
-    clickSearch()
-    clickGoTop()
-}
-
 function clickSearch() {
     // 输入框回车
     document.onkeydown = (e) => {
@@ -28,11 +23,14 @@ function clickSearchMenu() {
 }
 
 function clickGoTop() {
-	let time=setInterval(()=>{
-		if(document.documentElement.scrollTop>0)
-			document.documentElement.scrollTop = document.documentElement.scrollTop -200
-		else
-			clearInterval(time)
-	},300)
-    
+    let lastTop = document.documentElement.scrollTop
+
+    let time = setInterval(() => {
+        let cTop = document.documentElement.scrollTop
+        if (cTop > 0 && lastTop == cTop) {
+            lastTop = cTop -= 20
+            document.documentElement.scrollTop = cTop
+        } else
+            clearInterval(time)
+    }, 5)
 }

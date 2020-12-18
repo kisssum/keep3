@@ -1,8 +1,7 @@
 $(() => {
     timeAll()
 
-    // click All
-    clickAll()
+    clickSearch()
 
     xfc()
 	
