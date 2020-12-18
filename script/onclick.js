@@ -28,5 +28,11 @@ function clickSearchMenu() {
 }
 
 function clickGoTop() {
-    document.documentElement.scrollTop = 0
+	let time=setInterval(()=>{
+		if(document.documentElement.scrollTop>0)
+			document.documentElement.scrollTop = document.documentElement.scrollTop -200
+		else
+			clearInterval(time)
+	},300)
+    
 }

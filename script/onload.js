@@ -5,7 +5,7 @@ $(() => {
     clickAll()
 
     xfc()
-
+	
     // 右键自定义事件
     window.oncontextmenu = () => {
         return false;

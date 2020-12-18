@@ -17,7 +17,7 @@
 }
 
 #goTop a {
-    margin: 10% auto;
+    margin: 8.5% auto;
 
     display: block;
 
@@ -37,7 +37,6 @@
 #goTop:hover {
     background-color: black;
     border: solid 3px orange;
-
 }
 
 #goTop:hover a {
