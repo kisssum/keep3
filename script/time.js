@@ -18,26 +18,27 @@ function jsqc() {
     let place = 0
 
     setInterval(() => {
-        place -= 1200
+        place -= 65
         $('#imgBoxList').animate({
-            marginLeft: place + 'px'
+            marginLeft: place + 'vw'
         }, 1000, () => {
-            if (place <= -6000) {
+            if (place <= -325) {
                 place = 0
                 $('#imgBoxList').css({
-                    marginLeft: place
+                    marginLeft: place + "vw"
                 })
             }
 
             $('#imgBox>ul>li').removeClass("active")
-            $('#imgBox>ul>li').eq(parseInt(place / -1200)).addClass("active")
+            $('#imgBox>ul>li').eq(parseInt(place / -65)).addClass("active")
         })
     }, 2000)
 
     for (let i = 0; i < 5; i++)
         $('#imgBox>ul>li').eq(i).click(() => {
-            place = -1200 * i
+            place = -65 * (i - 1)
+            // alert(i)
             $('#imgBox>ul>li').removeClass("active")
-            $('#imgBox>ul>li').eq(parseInt(place / -1200)).addClass("active")
+            $('#imgBox>ul>li').eq(parseInt((place + 65) / -65)).addClass("active")
         })
 }
