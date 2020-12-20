@@ -4,9 +4,6 @@ function timeAll() {
 }
 
 function timeChange() {
-    // video_gf panel height 
-    $('#video_fg')[0].style.height = $('#video_mp4')[0].clientHeight + 'px'
-
     // xfc panel height 
     $('#xfc')[0].style.marginTop = document.documentElement.clientHeight / 2 - 100 + 'px'
 

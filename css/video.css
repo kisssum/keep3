@@ -1,5 +1,4 @@
 #video {
-    margin-top: 3vw;
     margin: 3vw auto;
     width: 100%;
 }
@@ -14,10 +13,10 @@
     position: absolute;
     top: 3vw;
     width: 100%;
+    height: 31.7vw;
 
     background: rgba(0, 0, 0, .5);
 
-    /* transition: 1s; */
     transition: background .6s ease-in-out;
 }
 
@@ -29,8 +28,8 @@
 #video #img {
     margin: 8vw auto;
 
-    width: 35%;
-    height: 50%;
+    width: 30%;
+    height: 14vw;
 
     background: url(../images/zilu.png) no-repeat;
     background-size: 100% 100%;
