@@ -7,13 +7,18 @@
     width: 10%;
     height: 6%;
 
-    border-radius: 50px;
+    border-radius: 2.5vw;
     box-shadow: 2px 2px 10px 2px #ccc;
-    border: solid 3px black;
+    border: solid 0.2vw black;
 
     background-color: white;
 
-    transition: .7s;
+    transition: border, background-color, bottom .8s;
+}
+
+#goTop:hover {
+    background-color: black;
+    border: solid 0.2vw orange;
 }
 
 #goTop a {
@@ -26,17 +31,12 @@
     text-align: center;
     text-decoration: none;
 
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: bold;
 
     color: black;
 
-    transition: .5s;
-}
-
-#goTop:hover {
-    background-color: black;
-    border: solid 3px orange;
+    transition: color .8s;
 }
 
 #goTop:hover a {

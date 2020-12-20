@@ -19,9 +19,9 @@ $(() => {
         // 左xfc
         let xfc = $('#xfc')[0]
         if (top < clientHeight / 2)
-            xfc.style.left = '-45px'
+            xfc.style.left = '-2.25vw'
         else if (top + clientHeight >= totalHeight - 100)
-            xfc.style.left = '-45px'
+            xfc.style.left = '-2.25vw'
         else
             xfc.style.left = '0'
 
