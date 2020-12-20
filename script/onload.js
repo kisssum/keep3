@@ -4,7 +4,7 @@ $(() => {
     clickSearch()
 
     xfc()
-	
+
     // 右键自定义事件
     window.oncontextmenu = () => {
         return false;
@@ -27,10 +27,8 @@ $(() => {
 
         // topBar
         let topBar = $('#top')[0]
-        if (top > lastTop)
-            topBar.style.top = "-7%"
-        else
-            topBar.style.top = "0"
+        if (top > lastTop) topBar.style.top = "-3vw"
+        else topBar.style.top = "0"
 
         lastTop = top
     })
@@ -38,7 +36,7 @@ $(() => {
     // top left 事件
     $("#top #top_left li").mouseenter(function () {
         let c = $(this).index();
-        let left = c * 95;
+        let left = [0, 6, 11, 16, 21, 26, 31]
 
         // 如果不是第0个li就开始
         if (c != 0) {
@@ -46,7 +44,7 @@ $(() => {
             $(this).siblings('li').find('a').removeClass('cur');
             //p标签定位实现红色线条
             $(this).siblings('p').stop().animate({
-                'left': left + 'px'
+                'left': left[c] + 'vw'
             }, 300);
         }
     })

@@ -1,5 +1,6 @@
 #video {
-    margin: 3.3% auto;
+    margin-top: 3vw;
+    margin: 3vw auto;
     width: 100%;
 }
 
@@ -11,12 +12,13 @@
 /*  video_fg */
 #video #video_fg {
     position: absolute;
-    top: 7%;
+    top: 3vw;
     width: 100%;
 
     background: rgba(0, 0, 0, .5);
 
-    transition: .5s;
+    /* transition: 1s; */
+    transition: background .6s ease-in-out;
 }
 
 #video #video_fg:hover {
@@ -25,7 +27,7 @@
 
 /*  video_img */
 #video #img {
-    margin: 8% auto;
+    margin: 8vw auto;
 
     width: 35%;
     height: 50%;
