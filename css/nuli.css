@@ -2,6 +2,7 @@
     margin: 0 auto;
 
     width: 100%;
+    height: 46vw;
 
     text-align: center;
 }
@@ -10,24 +11,24 @@
 #nuli #nuli1-1 {
     margin: 0 auto;
 
-    width: 1200px;
-    height: 200px;
+    width: 60vw;
+    height: 10vw;
 }
 
 #nuli #nuli1-1 p {
-    font-size: 40px;
+    font-size: 2.1vw;
     font-weight: bold;
-    line-height: 200px;
+    line-height: 10vw;
 }
 
 #nuli #nuli1-1 div {
-    margin: -160px 820px;
+    margin: -8.5vw 42vw;
 
-    width: 80px;
-    height: 60px;
+    width: 4vw;
+    height: 3vw;
 
-    line-height: 60px;
-    font-size: 20px;
+    line-height: 3vw;
+    font-size: 1vw;
     font-weight: bold;
     color: white;
 
@@ -37,61 +38,57 @@
 /* ul */
 #nuli #nuli1 ul {
     margin: 0 auto;
-
     list-style: none;
 
-    overflow: hidden;
-
-    width: 1200px;
-    height: 200px;
+    width: 64vw;
+    height: 13vw;
 }
 
 #nuli #nuli1 ul li {
-    margin-left: 6%;
-
-    width: 17%;
-    height: 90px;
-
+    margin-left: 4vw;
     float: left;
+
+    width: 11vw;
+    height: 100%;
 }
 
 #nuli #nuli1 ul li div {
     margin: 0 auto;
-    width: 90px;
-    height: 90px;
+    width: 8vw;
+    height: 8vw;
 }
 
 #nuli #nuli1 ul li:nth-child(1) div {
     background: url(../images/努力/花.png) no-repeat;
-    background-size: 90px 90px;
+    background-size: 100% 100%;
 }
 
 #nuli #nuli1 ul li:nth-child(2) div {
     background: url(../images/努力/好评.png) no-repeat;
-    background-size: 90px 90px;
+    background-size: 100% 100%;
 }
 
 #nuli #nuli1 ul li:nth-child(3) div {
     background: url(../images/努力/支持.png) no-repeat;
-    background-size: 90px 90px;
+    background-size: 100% 100%;
 }
 
 #nuli #nuli1 ul li:nth-child(4) div {
     background: url(../images/努力/积累.png) no-repeat;
-    background-size: 90px 90px;
+    background-size: 100% 100%;
 }
 
 /* nuli1-2 */
 #nuli #nuli1-2 {
     margin: 0 auto;
 
-    width: 1200px;
-    height: 200px;
+    width: 60vw;
+    height: 10vw;
 }
 
 #nuli #nuli1-2 p {
-    font-size: 40px;
-    line-height: 200px;
+    font-size: 2vw;
+    line-height: 10vw;
 }
 
 /* p */
@@ -100,32 +97,31 @@
 }
 
 #nuli #nuli1 ul p span {
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 #nuli #nuli1 ul li p {
     margin-top: 20%;
 
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: bold;
 }
 
 /* yes */
 #nuli #nuli1 .yes {
     width: 100%;
-    height: 200px;
 }
 
 #nuli #nuli1 .yes #yes-1 {
     margin: 0 auto;
 
-    width: 700px;
-    height: 100px;
+    width: 35vw;
+    height: 5vw;
 
-    border: solid 3px black;
-    border-radius: 50px;
+    border: solid 0.2vw black;
+    border-radius: 9vw;
 
-    transition: .5s;
+    transition: background .5s;
 }
 
 #nuli #nuli1 .yes #yes-1:hover {
@@ -135,12 +131,12 @@
 #nuli #nuli1 .yes #yes-1 a {
     color: #666;
 
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: bold;
-    line-height: 110px;
+    line-height: 5.5vw;
     text-decoration: none;
 
-    transition: 1s;
+    transition: color 1s;
 }
 
 #nuli #nuli1 .yes #yes-1:hover a {
