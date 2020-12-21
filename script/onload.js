@@ -1,14 +1,10 @@
 $(() => {
     timeAll()
-
     clickSearch()
-
     xfc()
 
     // 右键自定义事件
-    window.oncontextmenu = () => {
-        return false;
-    }
+    window.oncontextmenu = () => { return false }
 
     let lastTop = 0
     $(window).scroll(() => {
@@ -35,17 +31,17 @@ $(() => {
 
     // top left 事件
     $("#top #top_left li").mouseenter(function () {
-        let c = $(this).index();
-        let left = [0, 6, 11, 16, 21, 26, 31]
+        let c = $(this).index()
+        let left = [6, 10.9, 15.8, 20.8, 25.8, 30.8]
 
         // 如果不是第0个li就开始
         if (c != 0) {
-            $(this).find('a').addClass('cur');
-            $(this).siblings('li').find('a').removeClass('cur');
+            $(this).find('a').addClass('cur')
+            $(this).siblings('li').find('a').removeClass('cur')
             //p标签定位实现红色线条
             $(this).siblings('p').stop().animate({
-                'left': left[c] + 'vw'
-            }, 300);
+                'left': left[c - 1] + 'vw'
+            }, 300)
         }
     })
 })

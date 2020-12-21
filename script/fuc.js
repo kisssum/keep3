@@ -10,8 +10,8 @@ function Search() {
 
     yqtop = $('#top_right a')[0].innerHTML
     text = $('#top_right input')[0].value
-    if (text != '')
-        window.open(yq[yqtop] + text, '_blank')
+
+    if (text != '') window.open(yq[yqtop] + text, '_blank')
 }
 
 function jump() {
@@ -31,19 +31,11 @@ function bd_cancel() {
 }
 
 function checkout() {
-    if ($('#jname')[0].value == '') {
-        alert('信息不完整！')
-        return false
-    }
-    if ($('#jemial')[0].value == '') {
-        alert('信息不完整！')
-        return false
-    }
-    if ($('#jwebsite')[0].value == '') {
-        alert('信息不完整！')
-        return false
-    }
-    if ($('#jmsg')[0].value == '') {
+    if ($('#jname')[0].value == ''
+        || $('#jemial')[0].value == ''
+        || $('#jwebsite')[0].value == ''
+        || $('#jmsg')[0].value == ''
+    ) {
         alert('信息不完整！')
         return false
     }

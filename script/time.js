@@ -37,7 +37,6 @@ function jsqc() {
     for (let i = 0; i < 5; i++)
         $('#imgBox>ul>li').eq(i).click(() => {
             place = -65 * (i - 1)
-            // alert(i)
             $('#imgBox>ul>li').removeClass("active")
             $('#imgBox>ul>li').eq(parseInt((place + 65) / -65)).addClass("active")
         })

@@ -18,10 +18,10 @@
     height: 30vw;
 
     border-radius: 0.5vw;
-    box-shadow: 0 0 20px 2px #aaa;
+    box-shadow: 0 0 1vw 0.1vw #aaa;
 
     overflow: hidden;
-    transition: transform .8s;
+    transition: transform .8s, box-shadow .8s;
 }
 
 #jsqc #imgBox:hover {
