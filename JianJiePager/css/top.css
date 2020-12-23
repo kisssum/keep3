@@ -5,15 +5,22 @@
 
 #top {
     width: 100%;
-    height: 100px;
-    background-color: #eeeeee;
+    height: 6vw;
+    background-color: #584f60;
     position: relative;
-    margin-top: -100px;
+    margin-top: -6vw;
+}
+
+#top #top-title {
+    margin: 0 auto;
+    width: 45vw;
+    height: 100%;
 }
 
 #top h1 {
     position: relative;
-    top: 30px;
-    left: 30px;
-    color: #444444;
+    top: 2vw;
+    left: 1vw;
+    color: white;
+    font-size: 2vw;
 }
